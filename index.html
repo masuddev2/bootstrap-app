@@ -7,24 +7,25 @@
     <title>Document</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
 </head>
 
 <body>
-    <h1 class="alert alert-primary">Hello World</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae soluta aliquam nam! Quibusdam quaerat consectetur
-        blanditiis similique sequi. Hic, molestiae!</p>
+
+    <!-- <p>Click Here</p>
+
+<button onclick="myFuction()">Click me to show time</button>
+<button onclick="hide()">Hide</button>
+
+<p id="date"></p> -->
 
 
-    <button onclick="showProduct('Masud')" class="btn btn-outline-primary">Show Product</button>
 
-    <div class="container">
-        <div class="row">
-            <div id="product" class="col-4">
-                
-            </div>
-        </div>
+    <button onclick="document.getElementById('myImg').src='./assets/img/bulb2.png'"> turn off the light</button>
+    <img id="myImg" src="./assets/img/bulb2.png" alt="">
+    <button onclick="document.getElementById('myImg').src='./assets/img/builb1.gif'"> turn on the light</button>
 
-    </div>
+
 
     <script src="./assets/js/index.js"></script>
     <script src="./assets/js/bootstrap.js"></script>
